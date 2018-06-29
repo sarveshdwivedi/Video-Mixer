@@ -1,0 +1,24 @@
+{
+  "name": "videomixer",
+  "version": "1.0.0",
+  "description": "Video Mixer - Music app mixer implementation",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^2.1.5",
+    "async-waterfall": "^0.1.5",
+    "body-parser": "*",
+    "express": "*",
+    "fluent-ffmpeg": "^2.1.0",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.8.5",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sarvesh Dwivedi",
+  "license": "ISC"
+}
